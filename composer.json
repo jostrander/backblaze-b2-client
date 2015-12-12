@@ -1,0 +1,23 @@
+{
+  "name": "jostrander/backblaze-b2-client",
+  "type": "library",
+  "description": "An implementation of BackBlaze's B2 API in PHP",
+  "keywords": [ "backblaze", "b2" ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jesse Ostrander",
+      "email": "jesse@davisonsoftware.io",
+      "homepage": "https://www.davisonsoftware.io"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-0": { "BackBlazeB2": "src"}
+  }
+}
